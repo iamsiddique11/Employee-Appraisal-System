@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "e294908c-76fa-4dc4-834d-ecf6bdab3817",
+		"name": "ResultRestController",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/TeamSurveyapp/result/createResult",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"question1\": 6,\r\n        \"question2\": 10,\r\n        \"question3\": 10,\r\n        \"question4\": 10,\r\n        \"question5\": 6,\r\n        \"question6\": 6,\r\n        \"question7\": 6,\r\n        \"question8\": 6,\r\n        \"question9\": 6,\r\n        \"question10\": 6,\r\n        \"surveyDate\":\"2021-08-21\",\r\n        \"employee\": {\r\n            \"employeeId\": 5\r\n        }\r\n        \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/TeamSurveyapp/result/createResult",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"TeamSurveyapp",
+						"result",
+						"createResult"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/TeamSurveyapp/result/showResult",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/TeamSurveyapp/result/showResult",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"TeamSurveyapp",
+						"result",
+						"showResult"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/TeamSurveyapp/result/updateResult",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"result_id\":32,\r\n        \"question1\": 10,\r\n        \"question2\": 10,\r\n        \"question3\": 10,\r\n        \"question4\": 10,\r\n        \"question5\": 10,\r\n        \"question6\": 10,\r\n        \"question7\": 10,\r\n        \"question8\": 10,\r\n        \"question9\": 10,\r\n        \"question10\": 10,\r\n        \"surveyDate\":\"2021-08-21\",\r\n        \"employee\": {\r\n            \"employeeId\": 5\r\n        }\r\n     \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/TeamSurveyapp/result/updateResult",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"TeamSurveyapp",
+						"result",
+						"updateResult"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/TeamSurveyapp/result/deleteResult/32",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/TeamSurveyapp/result/deleteResult/32",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"TeamSurveyapp",
+						"result",
+						"deleteResult",
+						"32"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

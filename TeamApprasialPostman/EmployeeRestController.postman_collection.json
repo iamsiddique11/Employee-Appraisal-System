@@ -1,0 +1,134 @@
+{
+	"info": {
+		"_postman_id": "a28cf24e-18c2-42d8-8c7b-3c8298fe9360",
+		"name": "EmployeeRestController",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/TeamSurveyapp/employee/showEmployee",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/TeamSurveyapp/employee/showEmployee",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"TeamSurveyapp",
+						"employee",
+						"showEmployee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/TeamSurveyapp/employee/createEmp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"firstName\": \"Harsh\",\r\n        \"lastName\": \"Singh\",\r\n        \"gender\": \"male\",\r\n        \"department\": \"medical\",\r\n        \"manager\": {\r\n            \"managerId\": 1\r\n        },\r\n        \"hireDate\":\"2021-08-21\",\r\n        \"email\": \"harsh@gmail.com\",\r\n        \"phoneNumber\": 8765432986\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/TeamSurveyapp/employee/createEmp",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"TeamSurveyapp",
+						"employee",
+						"createEmp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/TeamSurveyapp/employee/updateEmp",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"employeeId\":30,\r\n        \"firstName\": \"Abhishek\",\r\n        \"lastName\": \"Bhatia\",\r\n        \"gender\": \"male\",\r\n        \"department\": \"medical\",\r\n        \"manager\": {\r\n            \"managerId\": 1\r\n        },\r\n        \"hireDate\":\"2021-08-21\",\r\n        \"email\": \"abhi@gmail.com\",\r\n        \"phoneNumber\": 8765432986\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/TeamSurveyapp/employee/updateEmp",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"TeamSurveyapp",
+						"employee",
+						"updateEmp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/TeamSurveyapp/employee/deleteEmp/30",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/TeamSurveyapp/employee/deleteEmp/30",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"TeamSurveyapp",
+						"employee",
+						"deleteEmp",
+						"30"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/TeamSurveyapp/employee/getById/5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/TeamSurveyapp/employee/getById/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"TeamSurveyapp",
+						"employee",
+						"getById",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
