@@ -14,8 +14,7 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 /**
- * @author Pallab
- * @version 11.0.12
+ *
  *
  */
 @Entity

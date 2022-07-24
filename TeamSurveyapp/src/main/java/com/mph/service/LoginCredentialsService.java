@@ -6,8 +6,7 @@ import com.mph.entity.Employee;
 import com.mph.entity.LoginCredentials;
 
 /**
- * @author Pallavi
- * @version 11.0.12
+ * 
  */
 public interface LoginCredentialsService {
 

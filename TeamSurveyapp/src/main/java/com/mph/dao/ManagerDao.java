@@ -6,8 +6,7 @@ import com.mph.entity.Employee;
 import com.mph.entity.LoginCredentials;
 import com.mph.entity.Manager;
 /**
- * @author Anuja
- * @version 11.0.12
+ * 
  */
 public interface ManagerDao {
 	

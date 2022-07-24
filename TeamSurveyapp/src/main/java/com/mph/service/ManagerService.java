@@ -7,8 +7,7 @@ import com.mph.entity.LoginCredentials;
 import com.mph.entity.Manager;
 
 /**
- * @author Monish
- * @version 11.0.12
+ * 
  */
 public interface ManagerService {
 

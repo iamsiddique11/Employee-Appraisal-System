@@ -17,8 +17,7 @@ import org.hibernate.annotations.ColumnDefault;
 import org.springframework.beans.factory.annotation.Value;
 
 /**
- * @author Anuja
- * @version 11.0.12
+ * 
  *
  */
 

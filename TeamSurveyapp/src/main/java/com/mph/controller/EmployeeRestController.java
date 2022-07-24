@@ -26,8 +26,7 @@ import com.mph.service.EmployeeService;
 @RestController
 
 /**
- * @author Pallavi
- * @version 11.0.12
+ * 
  */
 @RequestMapping(value="/employee")
 public class EmployeeRestController {

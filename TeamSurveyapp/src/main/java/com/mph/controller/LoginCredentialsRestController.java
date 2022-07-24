@@ -25,8 +25,7 @@ import com.mph.service.LoginCredentialsService;
 @CrossOrigin("*")
 @RestController
 /**
- * @author Pallavi
- * @version 11.0.12
+ * 
  */
 @RequestMapping(value="/login")
 public class LoginCredentialsRestController {

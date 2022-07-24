@@ -18,8 +18,7 @@ import org.hibernate.annotations.LazyCollectionOption;
 
 
 /**
- * @author Monish
- * @version 11.0.12
+ * 
  */
 @Entity
 public class Manager {

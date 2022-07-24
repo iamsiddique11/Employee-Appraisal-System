@@ -27,8 +27,7 @@ import com.mph.service.ResultService;
 @RestController
 @CrossOrigin("*")
 /**
- * @author Tahir
- * @version 11.0.12
+ *
  */
 @RequestMapping(value="/result")
 public class ResultRestController {

@@ -5,8 +5,6 @@ import javax.persistence.Id;
 
 
 /**
- * @author Pallavi
- * @version 11.0.12
  *
  */
 @Entity
